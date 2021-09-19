@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf8">
+        <title>New Page</title>
+    </head>
+    
+
+<style>
+    * {
+      box-sizing: border-box; 
+    }
+    body {
+      display: flex;
+      min-height: 100vh;
+      flex-direction: row;
+      margin: 0;
+    }
+    .col-1 {
+      background:violet;
+      flex: 1;
+    }
+    
+    .col-2 {
+      display: flex;
+      flex-direction: column;
+      flex: 6;
+      text-align: inherit;
+    }
+    .content {
+      display: flex;
+      flex-direction: row;
+    }
+    .content > article {
+      flex: 3;
+      min-height: 60vh;
+      background-color:rgb(133, 160, 147);
+    }
+    .content > aside {
+      background:white;
+      flex: 1;
+      flex-direction: column;
+      font-style: initial;
+    }
+    .headerContainer{
+      display: flex;
+      flex-flow: column wrap;
+      align-content: center;
+      background: gray;
+      font-weight:bold;
+      padding: 10px;
+
+    }
+    .h1{
+      margin: 0;
+            padding: 20px 10px;
+            color: white;
+            align-content: flex-start;
+            
+    
+    }
+    .article{
+      font-size:x-large;
+      font-weight: 100;
+      font-style:normal;margin: 0;
+    }
+    .footer{
+      font-size: medium;
+      font-weight: 300;
+      background-color: gray;
+      -ms-flex-align: center;
+      
+    }
+    header, footer, article, nav, aside {
+      padding: 2em;
+    }
+  </style>
+  <body>
+    <nav class="col-1">
+        
+        <h2></h2>
+        <a href="https://www.bridgelabz.com"> Home</a>
+        <h2></h2>
+        <a href="https://bridgelabz.in/"> Enroll </a>
+        <h2></h2>
+        <a href="https://bridgelabz.in/"> About us </a>
+        <h2></h2>
+        <a href="https://www.bridgelabz.com/business"> The Business  </a>
+        <h2></h2>
+        <a href="https://www.bridgelabz.com"> Contact us  </a>
+        
+        
+    </nav>
+
+    <div class="col-2">
+        <header class=headerContainer><h1 class=h1>
+          
+          Bridgelabz: Guaranteed Emerging Tech Job</h1></header>
+      <main class="content">
+      <article class="article"><p>At Bridgelabz, we are a techie community of</p>
+        <ul>
+            <li>technologists</li>
+            <li>thinkers</li>
+            <li>builders</li>
+        </ul>
+        <p>Working together to keep the Tech Employability of Engineers alive and accessible,
+          so tech Companies worldwide can get contributors and creators for Technology Solutions.
+         We believe this act of human collabration across an employability platfirm is essential
+         to individual growth and our collective future.</p>
+
+         <p>To know about us,visit <a href="https://www.bridgelabz.com">https://www.bridgelabz.com</a> to learn even more about
+          our mission i.e. <strong>Employability to all</strong></p>
+      </article>
+      <aside>
+        <img src="C:\Users\sony\Pictures\Camera Roll\bridgelabz-solutions-squarelogo-.png" alt="Hover Text." width="100%">
+        <p><strong>Key Points</strong></p>
+        <ul>
+          <li> Live Experience like Company Works </li>
+          <li>Works on different platforms which Industry Works </li>
+          <li>Company Specific  Training</li>
+        </ul>
+      </aside>
+      </main>
+        <footer class="footer">1000+ Top Tech Partner Companies and Counting</footer>
+    </div>
+  </body>
